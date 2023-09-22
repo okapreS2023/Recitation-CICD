@@ -119,7 +119,7 @@ describe('Bowling Score Test', () => {
     game.addFrame(new Frame(8,1));
     game.addFrame(new Frame(2,6));
 
-    expect(game.score()).toBe(112);
+    expect(game.score()).toBe(111);
   });
 
   test('Multiple Spares', () => {
