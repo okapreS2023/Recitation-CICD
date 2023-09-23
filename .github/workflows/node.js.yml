@@ -29,3 +29,5 @@ jobs:
       run: npm ci
     - name: Run all tests
       run: npm run coverage
+    - name: Deploy on render
+      run: curl "https://api.render.com/deploy/srv-ck72p4nq54js73ce4ln0?key=zPmVkwlusdM"
