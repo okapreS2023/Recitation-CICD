@@ -6,7 +6,7 @@ import Game from '../src/Game';
 describe('Demo Test Suite', () => {
 
   test('Demo test', () => {
-        expect(1).toBe(1);
+        expect(2).toBe(1);
   });
 });
 
