@@ -29,8 +29,3 @@ jobs:
       run: npm ci
     - name: Run all tests
       run: npm run coverage
-    - name: Upload Coverage Results
-      uses: actions/upload-artifact@v2
-      with:
-        name: coverage
-        path: coverage/
